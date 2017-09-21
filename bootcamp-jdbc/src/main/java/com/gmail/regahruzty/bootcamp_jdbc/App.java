@@ -22,7 +22,7 @@ private final static String driverClassName = "org.postgresql.Driver";
     	ds.setUrl(url);
     	ds.setPassword(password);
     	ds.setUsername(username);
-    	// ds.setDriverClassName(driverClassName);
+    	 ds.setDriverClassName(driverClassName);
     	
     	ds.getConnection();
     	
